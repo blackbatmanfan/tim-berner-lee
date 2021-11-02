@@ -1,0 +1,52 @@
+body {
+    margin: 0 padding:50px;
+
+}
+
+.porfile {
+    width: 180px;
+    margin-bottom: 80px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    background: linear-gradient (#0c9be8 0%, #063e5c 100%);
+    z-index: 100;
+
+}
+
+.menu {
+    z-index: 200;
+    position: absolute;
+    list-style: none;
+    font-family: fantasy;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: darkslateblue;
+
+
+}
+
+.links:hover {
+    background-color: floralwhite;
+    font-family: 'Fruktur', cursive;
+
+
+
+
+}
+
+#name {
+    font-family: 'Fruktur', cursive;
+}
